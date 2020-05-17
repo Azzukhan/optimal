@@ -56,8 +56,8 @@ def _print_fitnesses(iteration,
                      best_fitness,
                      frequency=1):
     if iteration == 1 or iteration % frequency == 0:
-        print 'Iteration: %s\nAvg Fitness: %s\nBest Fitness: %s' % (
-            iteration, (sum(fitnesses) / len(fitnesses)), best_fitness)
+        print ('Iteration: %s\nAvg Fitness: %s\nBest Fitness: %s' % (
+            iteration, (sum(fitnesses) / len(fitnesses)), best_fitness))
 
 
 class Problem(object):
